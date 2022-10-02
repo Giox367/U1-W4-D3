@@ -1,0 +1,30 @@
+/* 
+- Scaricare 4 immagini di uguale dimensione
+- Lo script dovrà eseguire in loop ancune immagini ?????
+- Animare le immagini
+- Fare lo slider con if e dei range
+
+*/
+
+#container {
+  width: 580px;
+  height: 400px;
+  margin-left: 350px;
+}
+#carousel {
+  width: 500px;
+  height: 300px;
+}
+.imgcontainer {
+  width: 300px;
+  height: 200px;
+  left: 20px;
+  top: 20px;
+  transform-style: preserve-3d;
+  transition: transform 1.5s;
+  transform: rotate3d(1, 1, 1, 10deg);
+}
+
+.imgcontainer:hover {
+  transform: rotate3d(1, 1, 1, 30deg) matrix3d(1, 0, 0, 0, 0, 1, 6, 0, 0, 0, 1, 0, 50, 100, 0, 1.1);
+}
