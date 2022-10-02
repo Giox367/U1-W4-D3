@@ -8,23 +8,41 @@
 
 #container {
   width: 580px;
-  height: 400px;
-  margin-left: 350px;
+  height: 500px;
 }
 #carousel {
-  width: 500px;
-  height: 300px;
+  text-align: center;
+  margin: 90px;
+}
+#container-button {
+  margin-top: 20px;
+}
+button {
+  font-size: 40px;
+  margin: 0 10px;
+  border: 1px solid grey;
+  background: none;
+  border-radius: 10px;
+}
+img {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.imgVideo {
+  opacity: 1;
 }
 .imgcontainer {
-  width: 300px;
-  height: 200px;
-  left: 20px;
-  top: 20px;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+}
+.imganimation {
   transform-style: preserve-3d;
   transition: transform 1.5s;
   transform: rotate3d(1, 1, 1, 10deg);
 }
 
-.imgcontainer:hover {
+.imganimation:hover {
   transform: rotate3d(1, 1, 1, 30deg) matrix3d(1, 0, 0, 0, 0, 1, 6, 0, 0, 0, 1, 0, 50, 100, 0, 1.1);
 }
