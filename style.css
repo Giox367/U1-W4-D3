@@ -25,13 +25,10 @@ button {
   border-radius: 10px;
 }
 img {
-  opacity: 0;
-  width: 100%;
-  height: 100%;
+  width: 280px;
+  height: 392px;
 }
-.imgVideo {
-  opacity: 1;
-}
+
 .imgcontainer {
   text-align: center;
   width: 400px;
@@ -40,7 +37,7 @@ img {
 .imganimation {
   transform-style: preserve-3d;
   transition: transform 1.5s;
-  transform: rotate3d(1, 1, 1, 10deg);
+  transform: rotate3d(0, 0, 0, 0deg);
 }
 
 .imganimation:hover {
